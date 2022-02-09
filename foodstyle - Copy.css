@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.5;
+}
+.high{
+    color: rgb(41, 167, 24);
+    font-weight: 500;
+    font-size: 48px;
+    padding: 8px;
+    font-family: 'Pushster', cursive;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+h1, h2{
+    font-weight: 300;
+    line-height: 1.3;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    opacity: 0.7;
+    padding: 30px 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+.container a{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+.container ul{
+    display: flex;
+}
+.container a:hover{
+    border-bottom: 1px solid red;
+}
+.head{
+    background: url('https://png.pngtree.com/thumb_back/fh260/20170803/pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.head .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+}
+.head .content h1{
+    font-size: 55px;
+    color: salmon;
+    font-weight: 500;
+}
+.head .content p{
+    font-size: 18px;
+    max-width: 100%;
+    color: rgb(238, 185, 52);
+    margin: 20px 0;
+}
+.btn {
+    border: none;
+    background-color: rgb(243, 190, 54);
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 25px;
+}
+.btn a:hover{
+    opacity: 0.7;
+}
+
+.icons{
+    padding: 30px;
+}
+.icons h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.icons i{
+    background-color: rgb(6, 180, 6);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#service-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#service-content > div{
+    padding: 20px;
+}
+.box1{
+    border: 4px solid green;
+    margin: 8px;
+    border-radius: 35px;
+    background-color: rgb(201, 245, 201);
+}
+.box2{
+    margin: 8px;
+border-radius: 35px;
+    border: 4px solid green;
+    background-color: rgb(201, 245, 201);
+}
+.box3{
+    background-color: rgb(201, 245, 201);
+    margin: 8px;
+    border-radius: 35px;
+    border: 4px solid green;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.clients img{
+    flex: 25%;
+    height: 180px;
+    padding: 20px;
+}
+.clients-section h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.clients img:hover{
+    opacity: 0.8;
+}
+footer{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 180px;
+flex-direction: column;
+background-color: #333;
+color: #fff;
+}
+footer a{
+    margin-right: 30px;
+}
+
+footer a:hover{
+    color: green;
+}
+footer p{
+    font-size: 25px;
+}
+#contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    
+}
+.heda{
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 16px;
+}
+#contact{
+    background-color: rgb(187, 68, 68);
+}
+input{
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 4px;
+}
+form{
+    width: 40%;
+}
+label{
+    font-size: 20px;
+}
